@@ -1,5 +1,6 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin:0
 }
 header{
     background-color: #000;
@@ -8,11 +9,13 @@ header{
     width: 100%;
     top: 0;
     left: 0;
+    height: 40px;
 }
 
 .menu{
     display: flex;
     margin-left: 5%;
+    margin-top: 10px;
     list-style-type: none;
 }
 
@@ -23,7 +26,6 @@ header{
 
 .banner{
     background-color: #c6bfbf;
-    margin-top: 50px;
     width: 100%;
     padding: 5px;
 }
@@ -32,26 +34,30 @@ header{
     margin: 50px 150px;
 }
 
-footer{
-    background-color:#0b4d14;
-    color:white;
-    position:fixed;
-    width: 100%;
-    bottom: 0;
-    left:0;
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .body-content{
     display: flex;
     justify-content: space-between;
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 20px
 }
 
-.body-content p:nth-child(2){
-    margin: 15px 100px;
+.body-content p{
+    padding-left:50px
+}
+
+footer {
+    background-color: #0b4d14;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
 }
 
 
@@ -59,6 +65,7 @@ footer{
     display: flex;
     margin-left: 100px;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .footer-left li{
@@ -69,6 +76,7 @@ footer{
     display: flex;
     margin-right: 100px;
     list-style-type: none;
+    margin-top: 10px;
 }
 
 .footer-right li {
